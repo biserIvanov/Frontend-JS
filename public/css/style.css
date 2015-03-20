@@ -1,0 +1,81 @@
+body,ul,li {
+    margin:0;
+    padding:0;
+}
+header {
+    margin: 0px;
+    height: 100px;
+    background-color: #001433;
+}
+
+nav ul {
+    padding-top: 40px;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    padding: 20px;
+    list-style-type: none;
+}
+
+nav li a {
+    color: #EBFAFF;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    text-decoration:none;
+}
+
+.homeButton {
+    background-color: #E68A00;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+div.content {
+    background-color: #E68A00;
+    margin-top: -7px;
+}
+
+section {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    float: left;
+    width: 63%;
+    background-color: #EBEBFF;
+    border-radius: 25px;
+}
+.container {
+    width: 200px;
+    height: 120px;
+}
+aside {
+    float: right;
+    padding-top: 20px;
+    margin: 0 1.5%;
+    width: 30%;
+}
+footer {
+    clear: both;
+    height: 300px;
+    background-image: url(../img/guitar.png);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+hr.end {
+    height: 20px;
+    background-color: #E68A00;
+}
+.footerText {
+    float: right;
+    margin-top:200px;
+    bottom:0px;
+    color: #EBFAFF;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+.footerButtons a{
+    float: right;
+    margin-right: 40px;
+    color: #EBFAFF;
+}
